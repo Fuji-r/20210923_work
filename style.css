@@ -1,0 +1,44 @@
+@charset "utf-8";
+/*cssリセット*/
+/*利用するタグによってこちらの内容は増やす*/
+
+body,
+h1,
+h2,
+h3,
+ul,
+li,
+p {
+    margin: 0;
+    margin: 0;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    /*デフォルトの文字色、font-familyを予め当てておく*/
+    color: #4c4c4c;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ",
+        "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif,
+        "ヒラノギ角ゴシック" serif, "ヒラノギ明朝";
+}
+
+.wrap {
+    max-width: 980px;
+}
+
+
+.menu li {
+    display: inline-block;
+    list-style: none;
+    width: 100px;
+    text-align: center;
+    padding: 4px 2px;
+    font-size: 10px;
+    margin-top: 50px;
+    border-right: 0.2px solid #000;
+}
+
+.menu , span{
+    font-size: 20px;
+    margin-right: ;
+    
+}
